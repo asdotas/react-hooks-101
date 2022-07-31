@@ -3,7 +3,8 @@ import React from "react";
 const Event = ({ dispatch, event }) => {
     const id = event.id;
     const handleClickDeleteButton = () => {
-      dispatch({ type: 'DELETE_EVENT', id });
+      const resuit = window.confirm(`イベント(id=${id})を本当に削除しても良いですか？`);
+      if (resuit)dispatch({ type: 'DELETE_EVENT', id });
     };
 
     return (
