@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Event from './Event';
 
 const Events = ({ state, dispatch }) => {
