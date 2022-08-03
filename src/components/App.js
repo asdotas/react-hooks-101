@@ -17,8 +17,8 @@ const App = () => {
         <EventForm />
         <Events />
       </div>
-      
     </AppContext.Provider>
+    
 
   );
 }
