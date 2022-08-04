@@ -25,10 +25,7 @@ const EventForm = () => {
       description: 'イベントを作成しました。',
       operatedAt: timeCurrentIso8601()
     })
-
-
-
-
+    
     setTitle('');
     setBody('');  
   }
